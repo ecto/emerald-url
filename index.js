@@ -5,4 +5,7 @@ module.exports = function (req, res) {
   for (var i in info) {
     req[i] = info[i];
   }
+
+  // req.params
+  // req.query
 }
