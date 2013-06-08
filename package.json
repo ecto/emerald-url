@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "repository": "",
   "author": "ecto",
   "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ecto/emerald-url.git"
+  }
 }
