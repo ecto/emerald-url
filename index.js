@@ -1,7 +1,7 @@
-var fs = require('url');
+var url = require('url');
 
 module.exports = function (req, res) {
-  var info = req.parse(req.url);
+  var info = url.parse(req.url);
   for (var i in info) {
     req[i] = info[i];
   }
